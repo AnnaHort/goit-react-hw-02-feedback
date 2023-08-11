@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types';
-import { Container } from './Statistic.styled';
+import { Container } from './Statistics/Statistic.styled';
 
 const Section = ({ title, children }) => {
   return (

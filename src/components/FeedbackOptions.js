@@ -1,4 +1,4 @@
-import {List, Button} from './Statistic.styled';
+import {List, Button} from './Statistics/Statistic.styled';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     return (

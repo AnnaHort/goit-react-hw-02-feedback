@@ -1,4 +1,3 @@
-
 import PropTypes from 'prop-types';
 import { Container } from './Statistics/Statistic.styled';
 

@@ -83,17 +83,19 @@ export class App extends Component {
         </Section>
 
         {/* блок статистики */}
-        {hasFeedback && (
-          <Section title="Statistics">
-            <Statistics
-              good={good}
-              neutral={neutral}
-              bad={bad}
-              total={total}
-              positivePercentage={positivePercentage}
-            />
-          </Section>
-        )}
+        <Section title="Statistics">
+  {hasFeedback ? (
+    <Statistics
+      good={good}
+      neutral={neutral}
+      bad={bad}
+      total={total}
+      positivePercentage={positivePercentage}
+    />
+  ) : (
+    <p>No feedback given</p>
+  )}
+</Section>
 
       </Container>
     );

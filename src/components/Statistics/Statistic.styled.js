@@ -20,10 +20,14 @@ export const Button = styled.button`
   &:hover,
   :focus {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+    border-color: lightblue;
   }
   &:hover,
   &:focus {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
-    outline: none; 
+    outline: none;
+    &:hover{
+      background-color: lightblue;
+    }
   }
 `;
